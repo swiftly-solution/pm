@@ -1,0 +1,17 @@
+{
+    "PlayerNotFound": {
+        "en": "Player couldn't be found."
+    },
+    "PlayerSendYourself": {
+        "en": "You can't send yourself a message."
+    },
+    "syntax": {
+        "en": "Usage: %spm <target> <text>"
+    },
+    "RevicedPM": {
+        "en": "[PM from {green}{NAME}{default}]: {green}{TEXT}"
+    },
+    "SentPM": {
+        "en": "[PM to {green}{NAME}{default}]: {green}{TEXT}"
+    }
+}
