@@ -20,6 +20,7 @@ end)
 commands:Register("pm", function(playerid, args, argsCount, silent, prefix)
     local sender = GetPlayer(playerid)
     if not sender then return end
+    if not sender:CBasePlayerController():IsValid() then return end
     local sendername = sender:CBasePlayerController().PlayerName
 
     if argsCount < 2 then
